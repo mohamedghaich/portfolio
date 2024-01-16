@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: SFMono;
+  src: url(assets/fonts/SFMono/SFMonoRegular.woff) format("truetype");
+}
+*{
+  scroll-behavior: smooth;
+}
+body{
+  width: 100%;
+  padding:0 ;
+  margin: 0;
+  font-family: SFMono;
+  color: rgb(46, 46, 46);
+  font-size: 2.3vh;
+  user-select: none;
+  transition: 0.8s;
+
+
+
+}
+@media (max-width: 70vh) {
+  section{
+    transform: scale(0.9);
+  }
+}

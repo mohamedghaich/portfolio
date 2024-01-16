@@ -1,0 +1,57 @@
+
+<header [class.hide]="!isHeaderVisible">
+  <img src="../../../assets/1.png" alt="MED-GHAICH" >
+  <ul>
+    <li>
+      <a href="#about">About</a>
+    </li>
+    <li>
+      <a href="#edu">Education</a>
+    </li>
+    <li>
+      <a href="#exp">Experience</a>
+    </li>
+    <li>
+      <a href="#skills">Skills</a>
+    </li>
+    <li>
+      <a href="#projects">Projects</a>
+    </li>
+    <li>
+      <a href="../../../assets/cv_ghaich_mohamed.pdf">CV</a>
+    </li>
+  </ul>
+  <div class="mobile-nav">
+    <button (click)="active()" class="mobile-nav-toggle">
+      <svg viewBox="0 0 100 80" width="40" height="40">
+        <rect fill="#333" width="100" height="8"></rect>
+        <rect fill="#333" y="30" width="100" height="8"></rect>
+        <rect fill="#333" y="60" width="100" height="8"></rect>
+      </svg>
+    </button>
+  </div>
+</header>
+<aside class="mobile-navbar" [class.active]="asidevisible">
+  <ul>
+    <li>
+      <a href="#about">About <hr></a>
+    </li>
+    <li>
+      <a href="#edu">Education <hr></a>
+    </li>
+    <li>
+      <a href="#exp">Experience <hr></a>
+    </li>
+    <li>
+      <a href="#skills">Skills <hr></a>
+    </li>
+    <li>
+      <a href="#projects">Projects <hr></a>
+    </li>
+  </ul>
+  <div class="resume"><a href="../../../assets/cv_ghaich_mohamed.pdf">CV</a></div><button class="close-menu" (click)="deactive()"><svg
+      viewPort="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <line x1="1" y1="25" x2="25" y2="1" stroke="#333" stroke-width="3"></line>
+      <line x1="1" y1="1" x2="25" y2="25" stroke="#333" stroke-width="3"></line>
+    </svg></button>
+</aside>

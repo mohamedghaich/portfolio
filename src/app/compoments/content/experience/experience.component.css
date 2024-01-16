@@ -1,0 +1,178 @@
+section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+  font-size: 2.5vh;
+  margin-bottom: 10%;
+
+
+}
+  h1{
+    font-size:  4.5vh;
+    text-align: center;
+    
+  }
+
+.exp1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.info1{
+  width: 70vh;
+  margin-right: -10vw;
+}
+.info1 span{
+  margin-left: 1.5vh;
+  font-size: 1.7vh;
+}
+.info1 p{
+  border: rgb(46, 46, 46) 0.1vh solid;
+  border-radius: 2vh;
+  padding: 7%;
+  width: 80vh;
+  font-size: 1.8vh;
+  height: 23vh;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.178);
+}
+.info1 h5{
+  color: gray;
+}
+.exp1 .img{
+  width: 85vh;
+  height: 35vh;
+  border-radius: 2vh;
+  background-color: rgb(221, 171, 125);
+  background-image: url(../../../../assets/pexels-olia-danilevich-4974915.jpg);
+  background-size: cover;
+  z-index: -9;
+}
+
+
+.exp2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info2{
+ width: 70vh;
+ margin-left: -10vw;
+ text-align: end;
+}
+.info2 span{
+
+ margin-left: 1.5vh;
+ font-size: 1.7vh;
+}
+.info2 p{
+ border: rgb(46, 46, 46) 0.1vh solid;
+ border-radius: 2vh;
+ padding: 7%;
+ padding-bottom: 0;
+ width: 80vh;
+ margin-left:-18vh ;
+ font-size: 1.8vh;
+ text-align: left;
+ height: 23vh;
+ backdrop-filter: blur(8px);
+ background-color: rgba(255, 255, 255, 0.486);
+
+}
+.info2 h5{
+ color: gray;
+}
+.exp2 .img{
+ width: 85vh;
+ height:35vh;
+ border-radius: 2vh;
+ background-color: rgb(221, 171, 125);
+ background-image: url(../../../../assets/pexels-christina-morillo-1181271.jpg);
+ background-position-y: 50%;
+ background-size: cover;
+ z-index: -9;
+}
+@media (max-width: 150vh) {
+  .info1{
+    margin-right: -25vw;
+  }
+  .info2{
+    margin-left: -25vw;
+  }
+}
+@media (max-width: 130vh) {
+  .info1{
+    margin-right: -35vw;
+  }
+  .info2{
+    margin-left: -35vw;
+  }
+}
+@media (max-width: 118vh) {
+
+  .info1{
+    margin-right: -45vw;
+  }
+  .info2{
+    margin-left: -45vw;
+  }
+}
+@media (max-width: 111vh) {
+  .exp1 .imgp{
+    border-radius: 2vh;
+    background-image: url(../../../../assets/pexels-olia-danilevich-4974915.jpg);
+    background-size: cover;
+  }
+  .exp1 .img{
+    display: none;
+  }
+  .info1{
+    margin-right: 0;
+  }
+  .info1 p{
+    width: fit-content;
+    height: fit-content;
+    color: rgb(26, 26, 26);
+    /* text-shadow: rgb(255, 255, 255) 1px 1px; */
+    background-color: rgba(255, 255, 255, 0.541);
+  }
+  .exp2 .imgp{
+    border-radius: 2vh;
+    background-image: url(../../../../assets/pexels-christina-morillo-1181271.jpg);
+    background-size: cover;
+  }
+  .exp2 .img{
+    display: none;
+  }
+  .info2{
+    margin-left: 0;
+  }
+  .info2 p{
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 5vh;
+    margin: 0;
+    color: rgb(26, 26, 26);
+    /* text-shadow: rgb(255, 255, 255) 1px 1px; */
+    background-color: rgba(255, 255, 255, 0.541);
+  }
+
+}
+@media (max-width: 75vh) {
+
+
+ 
+ .info2 p,.info1 p{
+  font-size: 2vh;
+  z-index: 10;
+}
+}
+@media (max-width: 65vh) {
+
+  .info1,.info2{
+    width: 50vh;
+  }
+ }
