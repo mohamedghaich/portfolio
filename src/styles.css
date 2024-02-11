@@ -14,7 +14,8 @@ body{
   font-size: 2.3vh;
   user-select: none;
   transition: 0.8s;
-
+  background-color: rgb(241, 241, 241);
+  background-image: url(assets/cool-background.png);
 
 
 }

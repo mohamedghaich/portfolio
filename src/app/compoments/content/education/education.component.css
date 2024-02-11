@@ -6,6 +6,7 @@ section{
   justify-content: center;
   gap: 4vw;
   padding: 0 5%;
+  background-image: url(../../../../assets/cool-background.png);
 
 
 
@@ -23,6 +24,7 @@ section div{
   flex-direction: column;
   justify-content: center;
   transition: 1.5s;
+  backdrop-filter: blur(8px);
 }
 h1{
   font-size:  4.5vh;

@@ -57,6 +57,10 @@ border-radius: 86% 39% 69% 58% / 87% 69% 61% 42%;
 animation: image 15s ease-in infinite;
 transition: 0.8s;
 }
+.info{
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+}
 
 @keyframes image {
   0%{
